@@ -28,6 +28,7 @@ libraryDependencies ++= Seq(
   "io.kamon" %% "kamon-core" % "2.0.1",
   "com.newrelic.telemetry" % "telemetry" % "0.3.2",
   "com.newrelic.telemetry" % "telemetry-http-okhttp" % "0.3.2",
-  scalatest % "test",
-  "org.mockito" % "mockito-core" % "3.1.0" % "test"
+  "org.scalatest" %% "scalatest" % "3.0.8" % Test,
+  "org.mockito" % "mockito-core" % "3.1.0" % "test",
+  "org.scala-lang.modules" %% "scala-collection-compat" % "2.1.3"
 )
